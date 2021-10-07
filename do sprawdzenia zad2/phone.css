@@ -1,0 +1,157 @@
+@media (min-width:568px) {
+    body {
+        width: 500px;
+    }
+    }
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+* {
+    display: flex;
+    }
+    header {
+    background-color:aqua;
+    width: 500px;
+    height: 200px;
+    }
+    body {
+    background-color: aqua;
+    width: 500px;
+    height: 100%;
+    }
+    .header {
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 96%;
+    }
+    main {
+    background-color: purple;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 96%;
+    }
+    .cont-in-logo-top {
+    height: 40%;
+    width: 30%;
+    }
+    .holder-logo-top {
+    height: 60%;
+    width: 60%;
+    }
+    .cont-in-input-top {
+    background-color: red;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60%;
+    width: 70%;
+    }
+    .box-empty-future-top {
+    height: 20%;
+    width: 20%;
+    }
+    .cont-empty-future-top {
+    height: 20%;
+    width: 20%;
+    }
+    .section-empty-future-top {
+    height: 20%;
+    width: 20%;
+    }
+    .cont-in-information-top {
+    justify-content: flex-start;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+    }
+    .cont-icons-top {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    }
+    .message-menu-icon-mid {
+    margin-left: 12%;
+    gap: 1%
+    }
+    .cont-main-mid {
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    }
+    .container-main-mid {
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    }
+    .cont-placeholder-mid {
+    background-color: purple;
+    flex-direction: column;
+    height: 760px;
+    width: 100%;
+    }
+    .cont-placeholder-images-mid {
+    background-color: greenyellow;
+    gap: 1%;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    }
+    .container-placeholder-mid {
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    }
+    .placeholder-image-mid {
+    height: 100%;
+    width: 100%;
+    }
+    .placeholder-image-mid img{
+    height: 100%;
+    width: 100%;
+    }
+    .placeholder-images-mid {
+    height: 100%;
+    width: 100%;
+    }
+    .box-image-mid {
+    gap: 1%;
+    height: 350px;
+    width: 100%;
+    }
+    .boxholder-image-mid {
+    height: 100%;
+    width: 100%;
+    }
+    .boxholder-image-mid img {
+    height: 100%;
+    width: 100%;
+    }
+    .placeholder-images-mid {
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+    }
+    .placehold-images-mid {
+    background-color: red;
+    width: 50%;
+    height: 100%;
+    }
+    .box-images-mid {
+    width: 100%;
+    height: 100%;
+    }
+    .box-image-holder-mid {
+    width: 100%;
+    height: 100%;
+    }
+    .placeholder-button-hearth-mid {
+        justify-content:flex-start;
+        align-self: flex-start;
+        margin: 5%;
+    }
+    

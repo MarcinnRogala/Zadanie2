@@ -1,0 +1,94 @@
+@media (min-width:736px) {
+    body {
+        width: 700px;
+    }
+    }
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+* {
+    display: flex;
+    }
+    header {
+        background-color: greenyellow;
+        width: 900px;
+        height: 200px;
+        }
+        body {
+        background-color: aqua;
+        width: 900px;
+        height: 100%;
+        }
+        .header {
+        background-color: gray;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+        width: 96%;
+        }
+        main {
+        background-color: purple;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+        width: 96%;
+        }
+        .cont-in-logo-top {
+        height: 30%;
+        width: 20%;
+        }
+        .holder-logo-top {
+        height: 60%;
+        width: 60%;
+        }
+        .cont-in-input-top {
+        height: 60%;
+        width: 80%;
+        }
+        .message-menu-icon-mid {
+        margin-left: 15%;
+        gap: 1%
+        }
+        .boxholder-image-mid {
+        flex-direction: row;
+        height: 200px;
+        width: 450px;
+        }
+        .boxholder-image-mid img {
+        margin-left: 2%;
+        height: 200px;
+        width: 410px;
+        }
+        .placeholder-images-mid {
+        margin-left: 19.5%;
+        width: 250px;
+        height: 380px;
+        }
+        .placehold-images-mid {
+        background-color: red;
+        margin-left: 2%;
+        width: 255px;
+        height: 380px;
+        }
+        .placeholder-image-mid {
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        }
+        .cont-placeholder-mid {
+        margin-left: 1%;
+        height: 630px;
+        width: 98%;
+        }
+        .placeholder-image-mid img {
+        height: 200px;
+        width: 400px;
+        }
+        .box-image-mid {
+        margin-left: 20%;
+        gap: 4%;
+        height: 380px;
+        width: 528px;
+        }

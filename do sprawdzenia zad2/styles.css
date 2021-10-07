@@ -1,0 +1,429 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+* {
+display: flex;
+}
+header {
+flex-direction: column;
+width: 100%;
+height: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+body {
+flex-direction: column;
+background-color: aqua;
+width: 100%;
+height: 100%;
+margin-right: auto;
+margin-left: auto;
+}
+.header {
+background-color: aqua;
+align-self: center;
+justify-content: center;
+height: 140px;
+width: 1440px;
+}
+main {
+background-color: green;
+align-self: center;
+justify-content: center;
+height: 850px;
+width: 1440px;
+}
+.cont-in-logo-top {
+background-color: khaki;
+justify-content: center;
+align-items: center;
+height: 140px;
+width: 25%;
+}
+.cont-in-input-top {
+background-color: red;
+justify-content: flex-start;
+align-items: center;
+height: 140px;
+width: 50%;
+}
+.cont-in-information-top {
+background-color: blue;
+justify-content: flex-start;
+align-items: center;
+height: 140px;
+width: 50%;
+}
+.cont-main-mid {
+flex-direction: column;
+background-color: blue;
+height: 100%;
+width: 20%;
+}
+.container-main-mid {
+background-color: yellowgreen;
+flex-direction: column;
+height: 100%;
+width: 80%;
+}
+.cont-placeholder-mid {
+background-color: orange;
+justify-content: flex-start;
+align-items: center;
+gap: 20px;
+height: 50%;
+width: 100%;
+}
+.container-placeholder-mid {
+background-color: red;
+height: 50%;
+width: 100%;
+}
+.placeholder-image-mid {
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+background-color: gray;
+gap: 20px;
+height: 100%;
+width: 48%;
+}
+.placeholder-images-mid {
+background-color: brown;
+height: 100%;
+width: 50%;
+}
+.box-image-mid {
+background-color: green;
+justify-content: flex-end;
+gap: 20px;
+height: 100%;
+width: 48%;
+}
+.boxholder-image-mid {
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 20px;
+background-color: yellow;
+height: 100%;
+width: 50%;
+}
+.placeholder-images-mid {
+justify-content: flex-end;
+background-image: url("img/widget7.png");
+width: 259px;
+height: 380px;
+}
+.placehold-images-mid {
+justify-content: flex-end;
+background-image: url("img/widget8.png");
+width: 259px;
+height: 380px;
+}
+.box-images-mid {
+justify-content: flex-end;
+background-image: url("img/widget4.png");
+width: 259px;
+height: 382px;
+}
+.box-image-holder-mid {
+justify-content: flex-end;
+background-image: url("img/widget3.png");
+width: 259px;
+height: 382px;
+}
+.placeholder-button-hearth-mid {
+background-color: orange;
+height: 38px;
+width: 38px;
+margin: 20px;
+}
+.placeholder-button-hearth-mid button {
+align-self: center;
+justify-content: center;
+border-radius: 32px;
+border: none;
+width: 38px;
+height: 38px;
+cursor: pointer;
+}
+.cont-menu-text-explore-mid {
+background-color: brown;
+justify-content: center;
+align-items: center;
+height: 12%;
+width: 100%;
+}
+.text-explore-menu-mid {
+max-width: 120px;
+background-color: aqua;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: clip;
+font-family: 'Sofia Pro', sans-serif;
+font-size: 28px;
+}
+.menu-icon-zap-mid {
+background-color: green;
+justify-content: center;
+align-items: center;
+gap: 10px;
+height: 10%;
+width: 100%;
+}
+.menu-text-zap-mid {
+max-width: 120px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: clip;
+background-color: pink;
+font-family: 'Sofia Pro', sans-serif;
+}
+.menu-icon-dress-mid {
+background-color: purple;
+justify-content: center;
+align-items: center;
+margin-left: 4px;
+gap: 10px;
+height: 10%;
+width: 100%;
+}
+.menu-text-dress-mid {
+max-width: 120px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: clip;
+background-color: yellow;
+font-family: 'Sofia Pro', sans-serif;
+}
+.menu-icon-shoes-mid {
+background-color: orange;
+justify-content: center;
+align-items: center;
+gap: 10px;
+height: 10%;
+width: 100%;
+}
+.menu-text-shoes-mid {
+max-width: 120px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: clip;
+background-color: brown;
+margin-right: 8px;
+font-family: 'Sofia Pro', sans-serif;
+}
+.menu-icon-bag-mid {
+background-color: red;
+justify-content: center;
+align-items: center;
+margin-left: 12px;
+gap: 10px;
+height: 10%;
+width: 100%;
+}
+.menu-text-bag-mid {
+max-width: 120px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: clip;
+background-color: purple;
+font-family: 'Sofia Pro', sans-serif;
+}
+.menu-icon-yoga-mid {
+background-color: hotpink;
+justify-content: center;
+align-items: center;
+margin-left: 12px;
+gap: 10px;
+height: 10%;
+width: 100%;
+}
+.menu-text-yoga-mid {
+max-width: 120px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: clip;
+background-color: blue;
+font-family: 'Sofia Pro', sans-serif;
+}
+.menu-icon-gift-mid {
+background-color: gold;
+justify-content: center;
+align-items: center;
+margin-left: 18px;
+gap: 10px;
+height: 10%;
+width: 100%;
+}
+.menu-text-gift-mid {
+max-width: 120px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: clip;
+background-color: red;
+font-family: 'Sofia Pro', sans-serif;
+}
+.menu-icon-diamond-mid {
+background-color: blue;
+justify-content: center;
+align-items: center;
+margin-left: 8px;
+gap: 10px;
+height: 10%;
+width: 100%;
+}
+.menu-text-diamond-mid {
+max-width: 120px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: clip;
+background-color: green;
+font-family: 'Sofia Pro', sans-serif;
+}
+.menu-icon-empty-place-mid {
+background-color: black;
+height: 10%;
+width: 100%;
+}
+.menu-wrap-empty-place-mid {
+background-color: darkgoldenrod;
+height: 10%;
+width: 100%;
+}
+.menu-holder-empty-place-mid {
+background-color: palegreen;
+height: 10%;
+width: 100%;
+}
+.menu-holder-icon-empty-place-mid {
+background-color: purple;
+height: 10%;
+width: 100%;
+}
+.message-menu-icon-mid {
+background-color: pink;
+justify-content: center;
+align-items: center;
+margin-left: 30px;
+gap: 20px;
+height: 20%;
+width: 100%;
+}
+.message-menu-text-mid {
+justify-content: flex-start;
+align-items: flex-end;
+background-color: aqua;
+width:40%;
+height: 30%;
+}
+.text-message {
+background-color:red;
+max-width: 100%;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: clip;
+font-family: 'Sofia Pro', sans-serif;
+}
+.holder-logo-top {
+background-color: pink;
+justify-content: center;
+align-items: flex-end;
+margin-right: 1.5rem;
+height: 60%;
+width: 60%;
+}
+.box-search-top {
+background-color: yellow;
+justify-content: flex-start;
+align-items: center;
+gap: 10px;
+height: 30%;
+width: 100%;
+}
+.input-search-top {
+font-size: 16px;
+height:60%;
+font-family: 'Sofia Pro', sans-serif;
+color: gray;
+}
+.box-empty-future-top {
+background-color: greenyellow;
+height: 30%;
+width: 30%;
+}
+.cont-empty-future-top {
+background-color: blue;
+height: 30%;
+width: 30%;
+}
+.section-empty-future-top {
+background-color: black;
+height: 30%;
+width: 30%;
+}
+.box-info-top {
+background-color: green;
+justify-content: space-between;
+height: 30%;
+width: 100%;
+}
+.cont-icons-top {
+background-color: purple;
+justify-content: flex-start;
+align-items: center;
+gap: 10px;
+height: 100%;
+width: 20%;
+}
+.cont-text-product-top {
+background-color: pink;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 20%;
+}
+.cont-text-product-top a {
+background-color: gray;
+max-width: 80px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: clip;
+font-family: 'Sofia Pro', sans-serif;
+border-style: solid;
+border-top: 3px;
+border-right: 3px;
+border-left: 3px;
+}
+.cont-information-top {
+font-family: 'Sofia Pro', sans-serif;
+background-color: yellowgreen;
+justify-content: space-around;
+align-items: center;
+height: 100%;
+width: 70%;
+}
+.text-story-top {
+background-color: red;
+max-width: 60px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: clip;
+}
+.text-manufacturing-top {
+background-color: yellow;
+max-width: 120px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: clip;
+}
+.text-packaging-top {
+background-color: gray;
+max-width: 90px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: clip;
+}
+a {
+color: black;
+text-decoration: none;
+}
